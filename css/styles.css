@@ -804,3 +804,19 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 padding: 15px 295px 15px 16px;
 }
+
+ 
+ .modal-labl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.input-modal {
+padding: 8px;
+font-family: inherit;
+min-width: 448px;
+
+border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+}

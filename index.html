@@ -66,6 +66,27 @@
           <button data-modal-open type="button" class="main-button">Заказать услугу</button>
           <div data-modal class="backdrop is-hidden">
             <div class="modal">
+              <form class="modal-form">
+                <b>Оставьте свои данные, мы вам перезвоним</b>
+
+                <label for="user-name" class="modal-labl">Имя
+                <input type="text" name="user-name" id="user-name" class="input-modal">
+              </label>
+
+                <label for="modal-tel" class="modal-labl">Телефон
+                <input type="tel" name="modal-tel" id="modal-tel" class="input-modal">
+              </label>
+
+                <label for="modal-mail" class="modal-labl">Почта
+                <input type="email" name="modal-mail" id="modal-mail" class="input-modal">
+              </label>
+
+              <label for="modal-text" class="modal-labl">
+                Комментарий
+                <textarea name="feedback" rows="5" placeholder="Введите текст"></textarea>
+              </label>
+
+              </form>
               <button class="close-modal" data-modal-close>
                 <svg width="11px" height="11px" class="icon-modal">
                   <use href=".//images/icons.svg#icon-clousemodal"></use>
