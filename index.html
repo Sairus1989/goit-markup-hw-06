@@ -67,24 +67,35 @@
           <div data-modal class="backdrop is-hidden">
             <div class="modal">
               <form class="modal-form">
-                <b>Оставьте свои данные, мы вам перезвоним</b>
+                <b class="title-form">Оставьте свои данные, мы вам перезвоним</b>
 
-                <label for="user-name" class="modal-labl">Имя
-                <input type="text" name="user-name" id="user-name" class="input-modal">
-              </label>
+                <label for="user-name" class="modal-labl">Имя</label>
+                <span class="name-block">
+                <input type="text" name="user-name" id="user-name" class="input-modal">              
+                    <svg width="12px" height="12px" class="icon-name">
+                      <use href=".//images/icons.svg#icon-name"></use>
+                    </svg>
+                  </span>
 
-                <label for="modal-tel" class="modal-labl">Телефон
-                <input type="tel" name="modal-tel" id="modal-tel" class="input-modal">
-              </label>
+                <label for="modal-tel" class="modal-labl">Телефон</label>
+                <span class="name-block">
+                <input type="tel" name="modal-tel" id="modal-tel" class="input-modal">       
+                <svg width="13px" height="13px" class="icon-name">
+                  <use href=".//images/icons.svg#icon-telmodal"></use>
+                </svg>
+              </span>
 
-                <label for="modal-mail" class="modal-labl">Почта
+                <label for="modal-mail" class="modal-labl">Почта</label>
+                <span class="name-block">
                 <input type="email" name="modal-mail" id="modal-mail" class="input-modal">
-              </label>
+                <svg width="15px" height="12px" class="icon-name">
+                  <use href=".//images/icons.svg#icon-envelope"></use>
+                </svg>
+              </span>
 
               <label for="modal-text" class="modal-labl">
-                Комментарий
-                <textarea name="feedback" rows="5" placeholder="Введите текст"></textarea>
-              </label>
+                Комментарий</label>
+                <textarea name="feedback" rows="5" placeholder="Введите текст" class="form-comment"></textarea>      
 
               </form>
               <button class="close-modal" data-modal-close>
