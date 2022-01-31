@@ -18,7 +18,6 @@
   <body>
     <!--Шапка сайта-->
     <header class="page-header">
- 
       <div class="container main-header">
         <nav class="site-nav list">
           <a href="./index.html" class="logo"
@@ -63,52 +62,79 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button data-modal-open type="button" class="main-button">Заказать услугу</button>
+          <button data-modal-open type="button" class="main-button">
+            Заказать услугу
+          </button>
           <div data-modal class="backdrop is-hidden">
             <div class="modal">
               <form class="modal-form">
-                <b class="title-form">Оставьте свои данные, мы вам перезвоним</b>
-
+                <b class="title-form"
+                  >Оставьте свои данные, мы вам перезвоним</b
+                >
                 <label for="user-name" class="modal-labl">Имя</label>
                 <span class="name-block">
-                <input type="text" name="user-name" id="user-name" class="input-modal">              
-                    <svg width="12px" height="12px" class="icon-name">
-                      <use href=".//images/icons.svg#icon-name"></use>
-                    </svg>
-                  </span>
-
+                  <input
+                    type="text"
+                    name="user-name"
+                    id="user-name"
+                    class="input-modal"
+                  />
+                  <svg width="12px" height="12px" class="icon-name">
+                    <use href=".//images/icons.svg#icon-name"></use>
+                  </svg>
+                </span>
                 <label for="modal-tel" class="modal-labl">Телефон</label>
                 <span class="name-block">
-                <input type="tel" name="modal-tel" id="modal-tel" class="input-modal">       
-                <svg width="13px" height="13px" class="icon-name">
-                  <use href=".//images/icons.svg#icon-telmodal"></use>
-                </svg>
-              </span>
-
+                  <input
+                    type="tel"
+                    name="modal-tel"
+                    id="modal-tel"
+                    class="input-modal"
+                  />
+                  <svg width="13px" height="13px" class="icon-name">
+                    <use href=".//images/icons.svg#icon-telmodal"></use>
+                  </svg>
+                </span>
                 <label for="modal-mail" class="modal-labl">Почта</label>
                 <span class="name-block">
-                <input type="email" name="modal-mail" id="modal-mail" class="input-modal">
-                <svg width="15px" height="12px" class="icon-name">
-                  <use href=".//images/icons.svg#icon-envelope"></use>
-                </svg>
-              </span>
-
-              <label for="modal-text" class="modal-labl">
-                Комментарий</label>
-                <textarea name="feedback" rows="5" placeholder="Введите текст" class="form-comment"></textarea>      
-              <div class="form-field">     
-                <input type="checkbox" name="modal-check" id="modal-check" class="checkbox">
+                  <input
+                    type="email"
+                    name="modal-mail"
+                    id="modal-mail"
+                    class="input-modal"
+                  />
+                  <svg width="15px" height="12px" class="icon-name">
+                    <use href=".//images/icons.svg#icon-envelope"></use>
+                  </svg>
+                </span>
+                <label for="modal-text" class="modal-labl"> Комментарий</label>
+                <textarea
+                  name="feedback"
+                  rows="5"
+                  placeholder="Введите текст"
+                  class="form-comment"
+                ></textarea>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    name="modal-check"
+                    id="modal-check"
+                    class="checkbox"
+                  />
                   <label for="modal-check" class="label-checkbox">
                     <span>
                       <svg width="11px" height="8px" class="checkbox-icon">
                         <use href=".//images/icons.svg#icon-Vector-icon"></use>
                       </svg>
                     </span>
-                    Соглашаюсь с рассылкой и принимаю &nbsp <a href="" class="checkbox-link"> Условия договора</a>
+                    Соглашаюсь с рассылкой и принимаю &nbsp
+                    <a href="" class="checkbox-link">Условия договора</a>
                   </label>
-              </div>
+                </div>
+                <div class="form-btn">
+                  <button type="submit" class="form-btn-send">Отправить</button>
+                  </div>
               </form>
-
               <button class="close-modal" data-modal-close>
                 <svg width="11px" height="11px" class="icon-modal">
                   <use href=".//images/icons.svg#icon-clousemodal"></use>
@@ -173,7 +199,6 @@
             </li>
           </ul>
         </div>
-  
       </section>
       <!--Наши занятия-->
       <section class="section feature">
@@ -182,7 +207,7 @@
           <ul class="feature-list">
             <li class="feature-item">
               <img src="./images/box1.jpg" alt="написание кода" />
-              <p class="text-feature">Десктопные приложения</p>             
+              <p class="text-feature">Десктопные приложения</p>
             </li>
             <li class="feature-item">
               <img src="./images/box2.jpg" alt="стилизация приложения" />
@@ -464,14 +489,20 @@
         <form class="footer-form">
           <label for="mail" class="label-text">Подпишитесь на рассылку</label>
           <div class="label-block">
-          <input type="email" name="mail" id="mail" placeholder="E-mail" class="input-footer">
-          <button type="submit" class="btn-telega">
-            <p class="text-telega">Подписаться</p>
-            <svg width="24px" height="24px" class="icon-tlg">
-              <use href=".//images/icons.svg#icon-telega"></use>
-            </svg>
-          </button>
-        </div>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="E-mail"
+              class="input-footer"
+            />
+            <button type="submit" class="btn-telega">
+              <p class="text-telega">Подписаться</p>
+              <svg width="24px" height="24px" class="icon-tlg">
+                <use href=".//images/icons.svg#icon-telega"></use>
+              </svg>
+            </button>
+          </div>
         </form>
       </div>
     </footer>
